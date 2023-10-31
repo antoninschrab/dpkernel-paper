@@ -1,0 +1,33 @@
+name: dpkernel-env
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip=22.3.1
+  - numpy=1.23
+  - scipy
+  - chex
+  - jaxlib=0.4.6
+  - jax=0.4.6
+  - pytorch=1.13.1
+  - optax
+  - flax
+  - ipywidgets
+  - pandas
+  - setuptools<60.0
+  - jupyterlab=3.6
+  - matplotlib
+  - seaborn
+  - tqdm
+  - tensorboard
+  - torchvision
+  - tornado
+  - nodejs
+  - theano
+  - autograd
+  - future
+  - scikit-learn
+  - pip:
+    - git+https://github.com/hcllaw/private_tst.git

@@ -1,0 +1,8 @@
+list_attr_celeba.txt
+galaxy_data
+del/test.out
+img_align_celeba
+img_align_celeba.zip
+.ipynb_checkpoints/
+__pycache__/
+test.out
